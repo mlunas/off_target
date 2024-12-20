@@ -6,6 +6,7 @@ Peter Micallef, Manuel Luna Santamaría, Daniel Andersson, Tobias Österlund, St
 
 ## Usage
 `python3 off_target.py -i filename.sorted.bam -b bedfile.bed`
+
 Optionally, the argument `-o output_directory` can be used to define a different output directory.
 
 ## Usage example
