@@ -11,6 +11,7 @@ Optionally, the argument `-o output_directory` can be used to define a different
 
 ## Usage example
 This scripts takes as input sorted BAM (*.sorted.bam*) alignment files:
+
 `python3 off_target.py -i Sample_1.sorted.bam -b Sample_1.bed`
 
 This command will index the bam file in case it was not previously indexed. Then, it will analyze the alignment file using the bed file as reference for the genomic position of the targeted amplicons. The script produces a *.tsv* file containing the number of reads detected for each target and the total number of off-target reads in the alignment, as well as the percentage of the total reads aligned to each target and percentage of off-target reads:
